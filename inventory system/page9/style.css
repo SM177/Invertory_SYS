@@ -1,0 +1,1261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+
+    height: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+#main {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+    color: rgb(49, 46, 46);
+    margin-left: 8rem;
+}
+
+.logo-sec {
+
+    width: 10%;
+    margin-top: 10px;
+    margin-right: 3px;
+
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.email {
+    background-color: rgb(254, 203, 51);
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+
+.box {
+
+    width: 50%;
+    height: 85%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    padding: 25px 5px 0 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(207, 205, 205);
+
+}
+
+/* scrollbar setting */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(248, 241, 241);
+    border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(246, 245, 243);
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 197, 22);
+}
+
+.text-sec {
+
+    width: 60%;
+    height: 100%;
+    padding-bottom: 10px;
+    overflow: scroll;
+    white-space: nowrap;
+
+
+
+
+    ;
+}
+
+.text-sec .title {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.text-sec .list {
+
+    margin: auto;
+    list-style: none;
+
+}
+
+ul li {
+
+    list-style: none;
+    padding: 5px;
+
+}
+
+.view {
+    position: absolute;
+    padding: 6px 30px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    background-color: rgb(227, 221, 221);
+    bottom: 20%;
+    left: 35%;
+
+
+}
+
+.box-sec {
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+
+.box-1 {
+
+    height: 30%;
+    width: 80%;
+    border-radius: 18px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 22px 0;
+    border: 1px solid black;
+}
+
+.box-2 {
+
+
+    height: 30%;
+    width: 80%;
+    border-radius: 18px;
+    border-radius: 18px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 22px 0;
+    border: 1px solid black;
+}
+
+.box-3 {
+
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 92%;
+    border-radius: 18px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    font-size: 10px;
+    border: 1px solid rgb(89, 88, 88);
+
+}
+
+.box-3 h3 {
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+
+.box-3 input {
+    border: none;
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.box-3 form {
+
+    height: 30%;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.button {
+
+    width: 50%;
+    justify-content: center;
+    align-items: end;
+
+   display: flex;
+    margin-top: 3.5rem;
+
+}
+
+.edit {
+    padding: 1px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+.rename {
+    padding: 2px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+
+
+
+.left-line {
+    position: absolute;
+    border: 1px solid gray;
+    width: 2.3%;
+    height: 2px;
+    left: 23%;
+    bottom: 62%;
+
+}
+
+.left-column-line {
+    position: absolute;
+    left: 20.4%;
+    top: 13%;
+}
+
+.line1 {
+    border-right: 2px solid gray;
+    height: 200px;
+    width: 19px;
+}
+
+.line2 {
+    border-right: 2px solid gray;
+    height: 10px;
+    width: 20px;
+}
+
+.line3 {
+    border-right: 2px solid gray;
+    height: 170px;
+    width: 18px;
+}
+
+.yellow {
+    padding: 5px 0 0 5px;
+
+}
+
+
+
+
+.bottom-sec {
+    /* background-color: blue; */
+    width: 25%;
+    height: 8%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.support {
+    width: 20%;
+    height: 3%;
+    background-color: #f2abb7;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    border-radius: 0 0 18px 18px;
+    position: absolute;
+    margin-left: 2.9rem;
+    font-size: 14px;
+    font-weight: 500;
+
+
+
+
+
+
+}
+
+.email-support {
+    width: 80.2%;
+    height: 60%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 18px;
+    border: 2px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: -12px;
+    z-index: -1;
+    color: rgb(46, 46, 46);
+}
+
+
+
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #eae9ea;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6f6e6c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+#main {
+    position: absolute;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+            /* RESPONSIVE */
+/* //////////////////////////////
+///////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+/////////////////////////// */
+
+
+
+/* Media query for desktop view */
+@media (min-width: 1281px) {
+
+    .line1 {
+        border-right: 2px solid gray;
+        height: 180px;
+        width: 19px;
+    }
+
+    .line2 {
+        border-right: 2px solid gray;
+        height: 180px !important;
+        width: 20px;
+    }
+
+    .line3 {
+        border-right: 2px solid gray;
+        height: 150px;
+        width: 18px;
+    }
+
+    .email {
+      
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .box-1 h1,
+    .box-2 h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .box-1 p,
+    .box-2 p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+  
+.button{
+  display: flex;
+  justify-content: end;
+    margin-left: 6rem;
+}
+    .rename {
+        padding: 2px 12px;
+    }
+    .edit {
+        padding: 1px 25px;
+    }
+
+    .view {
+        bottom: 18%
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(243, 243, 236);
+        border-radius: 10px;
+    }
+
+    .bottom-sec {
+        margin-top: 4rem;
+    }
+
+    .support {
+        padding-top: 5px;
+        margin-left: 2.7rem;
+        font-size: 12px;
+    }
+
+    .email-support {
+        padding-top: 19px;
+        font-size: 12px;
+        width: 81%;
+    }
+
+}
+/* ////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+///////////////////////////////////// */
+/* Media query for tablet view */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .line1 {
+        border-right: 2px solid gray;
+        height: 150px;
+        width: 19px;
+    }
+
+    .line2 {
+        border-right: 2px solid gray;
+        height: 120px !important;
+        width: 20px;
+    }
+
+    .line3 {
+        border-right: 2px solid gray;
+        height: 150px;
+        width: 18px;
+    }
+
+    .email {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .box-1 h1,
+    .box-2 h1 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .box-1 p,
+    .box-2 p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .box-3 {
+        padding: 10px 0;
+        width: 100%;
+    }
+    .box-3 h3{
+       font-size: 15px;
+    }
+
+    .button {
+       
+       margin-bottom: 20px;
+    }
+
+    .rename {
+        padding: 0 10px;
+    }
+
+    .edit {
+        padding: 0 22px;
+    }
+
+    .view {
+        bottom: 18%;
+        padding: 4px 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(243, 243, 236);
+        border-radius: 10px;
+    }
+
+    .bottom-sec {
+        margin-top: 2.9rem;
+    }
+
+    .support {
+    
+        padding-top: 6px;
+        margin-left: 1.5rem;
+        font-size: 11px;
+    }
+
+    .email-support {
+        padding-top: 12px;
+        font-size: 11px;
+        width: 81%;
+    }
+
+}
+
+/* /////////////////////
+//////////////////////////
+///////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+//////////////////////////////////////////////////// */
+/* Media query for tablet view */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .left-column-line {
+        position: absolute;
+        left: 17%;
+        top: 13%;
+    }
+
+    .line1 {
+        border-right: 2px solid gray;
+        height: 190px;
+        width: 19px;
+    }
+
+    .line2 {
+        border-right: 2px solid gray;
+        height: 180px !important;
+        width: 20px;
+    }
+
+    .line3 {
+        border-right: 2px solid gray;
+        height: 190px;
+        width: 18px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    p.p-title {
+        font-size: 12px;
+    }
+
+    .box-1 h1,
+    .box-2 h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .box-3 {
+        width: 100%;
+    }
+
+    .button {
+        width: 50%;
+
+    }
+
+    .rename {
+    font-size: 10px;
+        padding: 1px 10px;
+    }
+
+    .edit {
+        font-size: 10px;
+        padding: 0.5px 22px;
+    }
+
+    .view {
+        bottom: 18%;
+        padding: 4px 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(243, 243, 236);
+        border-radius: 10px;
+    }
+
+    .bottom-sec {
+        margin-top: 2.9rem;
+    }
+
+    .support {
+  
+        padding-top: 8px;
+        margin-left: 1rem;
+        font-size: 10px;
+    }
+
+    .email-support {
+        padding-top: 17px ;
+        font-size: 10px;
+        width: 81%;
+    }
+
+}
+
+
+/* For portrait-oriented tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .line1{ height: 130px;
+        width: 25px;}
+        .line2{ height: 120px;
+            width: 25px;}
+        .line3{ height: 120px;
+            width: 25px;}
+        
+            #sidebar {
+                position: fixed;
+        
+                left: -30%
+            }
+        
+            #main {
+                display: block;
+            }
+        
+            #column {
+                display: block;
+            }
+        
+            .closebtn {
+                display: block;
+            }
+        
+        
+        .box{
+            height: 90%;
+        }
+            .container {
+                width: 100%;
+                font-size: 70%;
+                margin: 0;
+        
+        
+            }
+        
+            .header {
+        
+                width: 100%;
+                padding: 0;
+                height: 10%;
+                justify-content: space-between;
+            }
+        
+        
+            .title {
+                font-size: 2rem;
+                margin-left: 4rem;
+            }
+        
+            .logo-sec {
+                width: 10%;
+        
+                text-align: center;
+        
+            }
+        
+            .name {
+        
+                font-size: 12px;
+        
+            }
+        
+            .email {
+             display: none;
+            }
+        
+            .left-column-line {
+                display: none;
+            }
+        
+            .content {
+                width: 100%;
+                height: 40%;
+                margin: auto;
+        
+            }
+        
+            .box {
+                width: 80%;
+                flex-direction: column-reverse;
+                border: 1px solid rgb(238, 237, 237)
+            }
+        
+            .box-sec {
+                flex-direction: row;
+        
+                width: 100%;
+                height: 70%;
+                flex-wrap: wrap;
+                margin: 0;
+        
+            }
+        
+            .box-1 {
+                border: 2px solid rgb(168, 163, 163);
+                width: 48%;
+                height: 40%;
+            }
+        
+            .box-1 p,
+            .box-2 p {
+                font-size: 15px;
+                font-weight: bold;
+            }
+        
+            .box-1 h1,
+            .box-2 h1 {
+                font-size: 23px;
+                font-weight: bolder;
+            }
+        
+            .box-2 {
+                width: 48%;
+                height: 40%;
+                border: 2px solid rgb(168, 163, 163);
+        
+            }
+        
+            .box-3 {
+                padding: 13px;
+              
+                width: 100%;
+                height: 48%;
+        
+                border: 2px solid rgb(168, 163, 163);
+                font-size: 13px;
+                align-items: start;
+            }
+            .box-3 form{
+                margin-top: 10px;
+            }
+        
+            .box-3 p {
+               
+                font-size: 12px;
+                align-items: start;
+            }
+            .box-3 h3{
+                font-size: 19px;
+                align-items: start;
+            }
+        
+        
+            .button {
+        
+                width: 70%;
+              display: flex;
+              justify-content: end;
+              align-items: end;;
+                margin-top: 2.2rem;
+                height: 30%;
+                margin-left: 6rem;
+                
+            }
+        
+        
+            .edit {
+                padding: 0 25px;
+                font-size: 13px;
+            }
+        
+            .rename {
+                padding: 0 12px;
+                font-size: 13px;
+            }
+        
+        
+            .text-sec {
+                width: 100%;
+                height: 100%;
+                border: 2px solid rgb(207, 203, 203);
+                border-radius: 20px;
+                overflow: scroll;
+                padding: 8px 20px;
+                margin-top: 1rem;
+        
+            }
+        
+            .text-sec .title {
+                margin-bottom: 10px;
+                margin-left: 3px;
+                font-size: 16px;
+            }
+        
+            .text-sec .list {
+        
+                font-size: 13px;
+                margin: auto;
+                list-style: none;
+        
+            }
+        
+            ul li {
+                padding: 6px;
+            }
+        
+        
+            .view {
+                display: none;
+            }
+        
+            .left-line {
+                display: none;
+            }
+        
+            .bottom-sec {
+                width: 60%;
+                margin-top:2rem;
+            }
+        
+            .support {
+             
+                width: 37%;
+                margin-left: 4.4rem;
+                font-size: 12px;
+                padding-top: 6px;
+            }
+        
+            .email-support {
+                width: 65%;
+                padding-top: 18px;
+                font-size: 12px;
+            }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for tablet view */
+@media only screen and (max-width: 480px) {
+.line1{ height: 130px;
+width: 25px;}
+.line2{ height: 120px;
+    width: 25px;}
+.line3{ height: 120px;
+    width: 25px;}
+
+    #sidebar {
+        position: fixed;
+
+        left: -30%
+    }
+
+    #main {
+        display: block;
+    }
+
+    #column {
+        display: block;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+
+.box{
+    height: 90%;
+}
+    .container {
+        width: 100%;
+        font-size: 70%;
+        margin: 0;
+
+
+    }
+
+    .header {
+
+        width: 100%;
+        padding: 0;
+        height: 10%;
+        justify-content: space-between;
+    }
+
+
+    .title {
+        font-size: 1.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .logo-sec {
+        width: 12%;
+
+        text-align: center;
+
+    }
+
+    .name {
+
+        font-size: 12px;
+
+    }
+
+    .email {
+        display: none;
+    }
+
+    .left-column-line {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 40%;
+        margin: auto;
+
+    }
+
+    .box {
+        width: 80%;
+        flex-direction: column-reverse;
+        border: 1px solid rgb(238, 237, 237)
+    }
+
+    .box-sec {
+        flex-direction: row;
+
+        width: 100%;
+        height: 70%;
+        flex-wrap: wrap;
+        margin: 0;
+
+    }
+
+    .box-1 {
+        border: 2px solid rgb(168, 163, 163);
+        width: 48%;
+        height: 40%;
+    }
+
+    .box-1 p,
+    .box-2 p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .box-1 h1,
+    .box-2 h1 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .box-2 {
+        width: 48%;
+        height: 40%;
+        border: 2px solid rgb(168, 163, 163);
+
+    }
+
+    .box-3 {
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 48%;
+
+        border: 2px solid rgb(168, 163, 163);
+        font-size: 13px;
+        align-items: start;
+    }
+    .box-3 form{
+        margin-top: 0;
+    }
+
+    .box-3 p {
+       
+        font-size: 10px;
+        align-items: start;
+    }
+    .box-3 h3{
+        font-size: 12px;
+        align-items: start;
+    }
+
+
+    .button {
+    display: flex;
+;
+        width: 50%;
+       margin-left: 10rem;
+        margin-top: 3rem;
+        height: 30%;
+        
+    }
+
+
+    .edit {
+        padding: 2px 18px;
+        font-size: 12px;
+    }
+
+    .rename {
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+
+
+    .text-sec {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(207, 203, 203);
+        border-radius: 20px;
+        overflow: scroll;
+        padding: 8px 20px;
+        margin-top: 1rem;
+
+    }
+
+    .text-sec .title {
+        margin-bottom: 10px;
+        margin-left: 3px;
+        font-size: 16px;
+    }
+
+    .text-sec .list {
+
+        font-size: 13px;
+        margin: auto;
+        list-style: none;
+
+    }
+
+    ul li {
+        padding: 6px;
+    }
+
+
+    .view {
+        display: none;
+    }
+
+    .left-line {
+        display: none;
+    }
+
+    .bottom-sec {
+        width: 60%;
+        margin-top: 1.5rem;
+    }
+
+    .support {
+        width: 39.5%;
+        margin-left: 2.9rem;
+        font-size: 9px;
+        padding-top: 5px;
+    }
+
+    .email-support {
+        width: 68%;
+        padding-top: 12px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media(min-width :887px) 
+{ 
+    .support{
+        margin-left: 3rem;
+    }
+    .email-support{
+        padding-top: 20px;
+    }
+    .button{
+        margin-right: 3rem;
+    }
+    
+}
+
+@media(min-width :630px) 
+{ 
+    .support{
+        margin-left: 3rem;
+    }
+    .email-support{
+        padding-top: 20px;
+    }
+    .button{
+    margin-right: 6rem;
+    margin-top: 5rem;
+    }
+    
+}
+    
+@media(min-width :403px) 
+{ 
+    .support{
+        margin-left: 3rem;
+        font-size: 10px;
+    }
+    .email-support{
+        padding-top: 20px;
+    }
+    .button{
+    margin-right: 6rem;
+    margin-top: 1rem;
+    }
+    
+}
+@media(min-width :329px) 
+{ 
+   
+    .button{
+   
+    margin-top: 3rem;
+    }
+    
+}
+    
+@media only screen and(min-width :482px) 
+{ 
+   
+    .button{
+   
+    margin-top: 1rem;
+    }
+    
+}
+    
+
+
+
+
+@media only screen and (min-width:390px) {
+    .email-support{
+        margin-left: 3rem;
+    }
+    .button{
+        margin-left: 7rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* scroll */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+
+    
+}

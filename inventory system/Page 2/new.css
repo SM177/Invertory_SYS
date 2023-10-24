@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 96vh;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100vw;
+        height: 15%;
+        text-align: center;
+
+        background-color: rgb(153, 48, 48);
+    }
+    .title{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    .getin{
+        position: absolute;
+        right: 1%;
+        font-size: 12px;
+       top: 4%;
+    }
+
+.cards{
+    background-color: rgb(166, 166, 195);
+    width: 50%;
+    height: 60%;
+    display: flex;
+   
+    justify-content: center;
+
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+   
+}
+.card-1{
+    width: 42%;
+    height: 80%;
+    border-radius: 35px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(123, 255, 0);
+}
+.card-2{
+    width: 42%;
+    height: 80%;
+    border-radius: 35px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(123, 255, 0);
+}
+.get1{
+    position: absolute;
+    width: 30%;
+    bottom: 26%;
+    left: 45%;
+    background-color: black;
+}
+.get1 img{
+   width: 50%;
+}
+.get2{
+    position: absolute;
+    width: 30%;
+    bottom: 26%;
+    left: 26%;
+    background-color: black;
+    border-radius: 35px;
+}
+.get2 img{
+   width: 40%;
+
+}
+
+
+img{
+    width: 60px;
+}
+.text{
+    font-size: 20px;
+    padding: 10px 40px;
+    align-items: start;
+}
+
+.bottm-sec{
+    height: 15%;
+    width: 100vw;
+    background-color: orange;
+}
+
+@media(max-width:390px){
+    .cards{
+display:flex;
+flex-direction: column;
+width: 100%;
+    }
+}

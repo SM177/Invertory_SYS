@@ -1,0 +1,669 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+
+    height: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+#main {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+    color: rgb(49, 46, 46);
+    margin-left: 8rem;
+}
+
+.logo-sec {
+
+    width: 13%;
+    margin-top: 10px;
+    margin-right: 3px;
+
+
+}
+
+
+.logo img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.email {
+    background-color: rgb(254, 203, 51);
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+
+
+.content {
+
+    margin: auto;
+    border-radius: 25px;
+    height: 80%;
+    width: 50%;
+
+
+
+}
+
+
+
+/* scrollbar setting */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 229, 229);
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 197, 22);
+}
+
+.box {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 80%;
+    margin-top: 5.5rem;
+    align-items: center;
+    text-align: start;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid gray;
+
+}
+
+.enterprize-plane {
+    background-color: rgb(254, 203, 51);
+    padding: 2px 8px;
+    width: 18%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    float: right;
+    margin-bottom: -0.8rem;
+    margin-top: 3rem;
+    color: black;
+}
+
+.web {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    height: 40%;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+td img {
+    width: 15% ;
+    height: auto;
+}
+
+table th {
+
+
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+
+table td {
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+
+.add-site {
+    width: 15%;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(237, 236, 236);
+    font-weight: bolder;
+    margin-bottom: 1.8rem;
+
+}
+.approved{
+    color: green;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.pending{
+    color:red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+.left-line {
+    position: absolute;
+    border: 1px solid gray;
+    width: 2.3%;
+    height: 2px;
+    left: 23%;
+    bottom: 55.9%;
+
+}
+
+.left-column-line {
+    position: absolute;
+    left: 20%;
+    top: 23%;
+
+}
+
+
+.line1 {
+    border-right: 2px solid gray;
+    height: 250px;
+    width: 26px;
+}
+
+.line2 {
+    border-right: 2px solid gray;
+    height: 180px;
+    width: 26px;
+}
+
+.line3 {
+    border-right: 2px solid gray;
+    height: 140px;
+    width: 26px;
+}
+.left-line{
+    top: 53%;
+  }
+  .left-column-line :nth-child(1) {
+    width: 35px !important;
+    } 
+    
+    
+    .left-column-line :nth-child(2) {
+    width: 32px !important;
+    } 
+    .left-column-line :nth-child(4) {
+    width: 30px !important;
+    } 
+    .left-column-line :nth-child(6) {
+    width: 30px !important;
+    } 
+    
+    .left-column-line :nth-child(7) {
+    width: 38px !important;
+    } 
+    .left-column-line :nth-child(5) {
+    width: 30px !important;
+    } 
+
+.bottom-sec {
+    /* background-color: blue; */
+    width: 25%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+    ;
+}
+
+.support {
+    width: 21%;
+    height: 4%;
+    background-color: #f2abb7;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+    border-radius: 0 0 18px 18px;
+    position: absolute;
+ left: 39.5%;
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+
+
+
+
+
+
+}
+
+.email-support {
+    width: 80.2%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 18px;
+    border: 2px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: -23px;
+    z-index: -1;
+    font-weight: bold
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #eae9ea;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6f6e6c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+#main {
+    position: absolute;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+ @media(min-width:987px){
+    .enterprize-plane{
+  
+      
+        width: 30%;
+    }
+    table td{
+        padding: 0;
+    }
+    .add-site{
+        width: 20%;
+    }
+    .left-column-line{
+        left: 17%;
+        top: 19%;
+    }
+    .left-line{
+        top: 46%;
+    }
+   
+    .email-support{
+        padding-top: 20px;
+    }
+    table td{
+        font-size: 24px;
+    }
+    .pending, .approved{
+        font-size: 20px;
+    }
+} 
+
+@media(min-width:1366px){
+    .enterprize-plane{
+        
+    }
+    td img{
+width: 10%;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .email{
+        font-size: 20px;
+    }
+    .add-site{
+        font-size: 22px;
+    }
+   table th{
+    font-size: 1.7rem;
+   }
+   .approved, .pending{
+    font-size: 22px;
+   }
+   table td{
+    font-size: 25px;
+   }
+   .left-column-line{top: 20%;
+    left: 20%;
+}
+.left-line{
+    top: 47%;}
+    .support{
+      
+        font-size: 20px;}
+        .email-support{
+            width: 84%;
+            height: 60%;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+    }
+
+/* Media query for tablet view */
+@media(max-width: 976px) {
+
+
+    .container {
+        width: 100%;
+        font-size: 70%;
+        margin: 0;
+
+
+    }
+
+    #main {
+        display: block;
+    }
+
+    #column {
+        display: block;
+    }
+
+
+    .closebtn {
+        display: block;
+    }
+
+    .header {
+
+        width: 100%;
+        padding: 0;
+        height: 10%;
+        justify-content: space-between;
+    }
+
+
+    .title {
+        font-size: 2rem;
+        margin-left: 4rem;
+    }
+
+    .logo-sec {
+        width: 10%;
+
+        text-align: center;
+
+    }
+
+    .header{
+        width: 90%;
+       
+    }
+    .name {
+
+        font-size: 18px;
+
+    }
+
+    .email {
+        display: none;
+    }
+   
+    .left-column-line {
+        display: none;
+    }
+
+    #column {
+        position: absolute;
+        left: 14%;
+        top: 14%;
+
+    }
+
+    .content {
+        margin-top: 5rem;
+        width: 100%;
+        height: 50%;
+
+
+    }
+
+    .box {
+
+        height: 90%;
+        margin-top: 5rem;
+        padding: 15px;
+    }
+
+    .enterprize-plane {
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
+
+    .add-site {
+        width: 30%;
+    }
+
+    table {
+        margin-top: 1.5rem;
+    }
+
+    tr th {
+
+        font-size: 22px;
+    }
+
+    tr td {
+        word-wrap: break-word;
+        font-size: 25px;
+    }
+    .pending, .approved{
+        font-size: 22px;
+    }
+  
+    .left-line {
+        display: none;
+    }
+    .bottom-sec{
+        width: 100%;
+    }
+    .support{
+        width: 78%;
+        
+        left: 10.7%;
+        font-size: 18px;
+    }
+    .email-support{
+        height: 60%;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:490px){
+    .title{
+        font-size: 1.3rem;
+    }
+    .header{
+        width: 100%;
+    }
+    .logo-sec{
+        width: 20%;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .enterprize-plane{
+        display: none;
+    }
+    .add-site{
+        width: 90%;
+        position: fixed;
+        right: 6%;
+        top: 21%;
+    }
+    table th{
+        font-size: 15px;
+       
+    }
+   table{
+    width: 150%
+   }
+   .approved, .pending{
+    font-size: 15px;
+   }
+   table td{
+    font-size: 18px;
+   }
+  td img{
+    width: 28%;
+  }
+  .box{
+    margin-top: 6rem;
+  }
+  .support{
+    width: 70%;
+  
+    font-size: 15px;
+  }
+  .email-support{
+    width: 70%;
+    font-size: 14px;
+  }
+
+   }
+
+@media (min-width:1267px){
+    .support{
+      
+     
+    }
+
+}
+@media (min-width:1367px){
+    .support{
+     
+font-size: 16px;
+       
+    }
+
+}
+
+
+/* scroll */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+

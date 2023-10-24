@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+/* top section */
+
+.top {
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.header {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin: auto;
+    margin-left: 0.2rem !important;
+}
+
+
+
+/*  nav mid */
+
+.mid {
+    width: 24%;
+    margin: auto;
+
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.nav-item,
+.name {
+    color: black;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.yel {
+    background-color: yellow;
+    border: 2px solid orange;
+    height: 2.2vw;
+}
+
+/* form */
+
+
+form {
+
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border-radius: 25px;
+    font-family: 'Manrope', sans-serif;
+
+
+
+}
+
+.container-bin {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /* background-image: url('./Screenshot\ \(52\).png'); */
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+
+.container-bin .image img {
+    width: 15%;
+    height: 100%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+
+
+
+/* footer */
+
+.container h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.image {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 13%;
+    height: 10%;
+    margin-left: 35rem;
+
+}
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1600px) {
+
+
+
+
+
+    .navbar.top {
+        padding: 5px;
+    }
+
+
+
+    .header {
+        font-size: 1.8rem;
+        margin: 0 60px !important;
+        margin-left: 8rem !important;
+
+    }
+
+    .navbar.mid {
+        padding: 5px;
+        
+
+    }
+
+    .navbar-nav {
+
+        font-size: 2rem;
+        width: 200%;
+    }
+
+    .mid {
+
+        text-align: center;
+        gap: 50px;
+        margin: auto;
+
+
+    }
+
+
+    .nav-link {
+        display: inline;
+        font-size: 1.2rem;
+    }
+
+    .container-bin {
+        padding: 5px;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .price h1 {
+        font-size: 2rem;
+    }
+
+
+
+    form {
+        width: 70%;
+        height: 60%;
+    }
+
+    .container-bin .image img {
+        width: 15%;
+        height: 20%;
+    }
+
+    .btn.pay {
+        font-size: 20px !important;
+        width: 15%;
+        height: 10%;
+
+    }
+
+    .title h1 {
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    .container h3 {
+        font-size: 21px;
+    }
+
+    .image img {
+        margin-left: 29rem;
+        width: 15%;
+        height: 20%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 781px) and (max-width:1024px) {
+
+
+
+    .body {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .navbar.top {
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 1.6rem;
+        margin: 0 60px !important;
+
+    }
+
+    .navbar.mid {
+        padding: 5px;
+    }
+
+    .navbar-nav {
+        margin-left: -4.8rem !important;
+    }
+
+    .mid {
+        width: 54%;
+        gap: 50px;
+        margin-right: 2.3rem;
+    }
+
+
+    .nav-link {
+        display: inline;
+        font-size: 0.8rem;
+    }
+
+    .container-bin {
+        padding: 5px;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .price h1 {
+        font-size: 1.2rem;
+    }
+
+
+
+    form {
+        width: 70%;
+        height: 40%;
+    }
+
+    .container-bin .image img {
+        width: 15%;
+        height: 20%;
+    }
+
+    .btn.pay {
+        font-size: 20px !important;
+        width: 15%;
+        height: 10%;
+
+    }
+
+    .title h1 {
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    .container h3 {
+        font-size: 21px;
+    }
+
+    .image img {
+        margin-left: 17rem;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 581px) and (max-width:780px) {
+
+
+
+    .body {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .navbar.top {
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 1.6rem;
+        margin: 0 60px !important;
+
+    }
+
+    .navbar.mid {
+        padding: 5px;
+    }
+
+    .navbar-nav {
+        margin-left: -4.8rem !important;
+    }
+
+    .mid {
+        width: 54%;
+        gap: 50px;
+        margin-right: 2.3rem;
+    }
+
+
+    .nav-link {
+        display: inline;
+        font-size: 0.8rem;
+    }
+
+    .container-bin {
+        padding: 5px;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .price h1 {
+        font-size: 1.2rem;
+    }
+
+
+
+
+    form {
+        width: 70%;
+        height: 40%;
+    }
+
+    .container-bin .image img {
+        width: 15%;
+        height: 20%;
+    }
+
+    .btn.pay {
+        font-size: 20px !important;
+        width: 15%;
+        height: 10%;
+
+    }
+
+    .title h1 {
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    .container h3 {
+        font-size: 21px;
+    }
+
+    .image img {
+        margin-left: 12rem;
+        width: 25%;
+        height: 20%;
+    }
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width:580px) {
+
+
+
+    .body {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .navbar.top {
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 1.6rem;
+        margin: 0 60px !important;
+
+    }
+
+    .navbar.mid {
+        padding: 5px;
+    }
+
+    .navbar-nav {
+        margin-left: -4.8rem !important;
+    }
+
+    .mid {
+        width: 54%;
+        gap: 50px;
+        margin-right: 2.3rem;
+    }
+
+
+    .nav-link {
+        display: inline;
+        font-size: 0.8rem;
+    }
+
+    .container-bin {
+        padding: 5px;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .price h1 {
+        font-size: 1.3rem;
+    }
+
+
+
+
+    form {
+        width: 70%;
+        height: 40%;
+    }
+
+    .container-bin .image img {
+        width: 15%;
+        height: 20%;
+    }
+
+    .btn.pay {
+        font-size: 20px !important;
+        width: 20%;
+        height: 10%;
+
+    }
+
+    .title h1 {
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    .container h3 {
+        font-size: 21px;
+    }
+
+    .image img {
+        margin-left: 12rem;
+        width: 25%;
+        height: 20%;
+    }
+}
+
+
+
+
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 480px) {
+    /* Adjust styles for mobile view */
+
+    /* Navbar styles */
+
+    .body {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .navbar.top {
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 1.6rem;
+        margin: 0 60px !important;
+
+    }
+
+    .navbar.mid {
+        padding: 5px;
+    }
+
+    /* Navigation items styles for mobile */
+    .navbar-nav {
+        margin-left: -4.8rem !important;
+    }
+
+    .mid {
+        width: 54%;
+        gap: 50px;
+        margin-right: 2.3rem;
+    }
+
+
+    .nav-link {
+        display: inline;
+        font-size: 0.8rem;
+    }
+
+    /* Form styles for mobile */
+    .container-bin {
+        padding: 5px;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .price h1 {
+        font-size: 1.2rem;
+    }
+
+
+    .image img {
+        margin-left: 8rem;
+        width: 25%;
+        height: 20%;
+    }
+
+    form {
+        width: 70%;
+        height: 40%;
+    }
+
+    .container-bin .image img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .btn.pay {
+        font-size: 20px !important;
+        width: 30%;
+        height: 10%;
+
+    }
+
+    .title h1 {
+        padding: 20px;
+    }
+
+    .container h3 {
+        font-size: 15px;
+    }
+
+
+}
